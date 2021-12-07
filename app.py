@@ -46,5 +46,5 @@ def predict():
 		return render_template('prediction.html', pred = 'You are safe. \n Probability of having Diabetes: {model_output}')
 
 
-if(__name__ == '__main__'):
+if __name__ == '__main__':
 	app.run(debug=True)
